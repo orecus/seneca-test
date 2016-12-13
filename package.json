@@ -1,0 +1,14 @@
+{
+  "name": "senecaTest",
+  "version": "0.0.1",
+  "description": "Seneca Microservice Test",
+  "main": "index.js",
+  "author": "orecus",
+  "license": "MIT",
+  "dependencies": {
+    "chairo": "^3.0.0",
+    "hapi": "^15.2.0",
+    "seneca": "^3.2.2"
+  },
+  "devDependencies": {}
+}

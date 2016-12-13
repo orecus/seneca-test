@@ -1,0 +1,18 @@
+{
+  "apps" : [
+    {
+      "name"        : "hapi",
+      "script"      : "index.js",
+      "instances"  : 1,
+      "watch":      true,
+      "ignore_watch": ["[\\/\\\\]\\./", "node_modules", "src", "public", "database", ".git", ".imdone"]
+    },
+    {
+      "name"        : "seneca",
+      "script"      : "microservices/math/service.js",
+      "instances"  : 1,
+      "watch":      true,
+      "ignore_watch": ["[\\/\\\\]\\./", "node_modules", "src", "public", "database", ".git", ".imdone"]
+    }
+  ]
+}
